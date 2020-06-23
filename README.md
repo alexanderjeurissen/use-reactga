@@ -37,7 +37,7 @@ and use anywhere in the render tree:
 ```jsx
 import { useReactGA } from '@alexanderjeurissen/use-reactGA';
 
-cont Component = () = {
+const Component = () = {
   const { event } = useReactGA();
   
   return (
@@ -61,7 +61,7 @@ addDecorator(storyFn => withReactGAContext(storyFn, 'UA-000000-01'));
 
 The `withReactGAContext` hoc consumes the same Provider as described in the previous example. It's a wrapper to allow the provider to be consumed in a functional fashion.
 
-#### ReactGAProvider with custom ReactGA
+### ReactGAProvider with custom ReactGA
 
 You might run into situations where more fine-grained control is desired over the value that is passed to the provider.
 For instance if you use a custom/version pinned ReactGA, or if you'd like to use your local ReactGA version instead of the version packed with this library.
