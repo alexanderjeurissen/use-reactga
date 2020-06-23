@@ -1,5 +1,5 @@
 # usReactGA - provider & hook
-![Publish](https://github.com/alexanderjeurissen/use-reactga/workflows/Publish/badge.svg?event=release)
+![Publish](https://github.com/alexanderjeurissen/use-reactga/workflows/Publish/badge.svg)
 
 This library provides a provider and hook to consume the initialized `ReactGA` context anywhere in the render tree.
 It's removes the need to initialize ReactGA multiple times, and provides a way for react components to hook into an existing ReactGA instance.
