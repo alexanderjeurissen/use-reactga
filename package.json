@@ -1,6 +1,6 @@
 {
   "name": "@alexanderjeurissen/use-reactga",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "ReactGA provider / hook for consuming reactga anywhere in the render tree.",
   "main": "./dist/use_reactga.js",
   "types": "./dist/use_reactga.d.ts",
