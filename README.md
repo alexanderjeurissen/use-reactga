@@ -1,4 +1,4 @@
-# usReactGA - provider & hook
+# useReactGA - provider & hook
 ![Publish](https://github.com/alexanderjeurissen/use-reactga/workflows/Publish/badge.svg)
 
 This library provides a provider and hook to consume the initialized `ReactGA` context anywhere in the render tree.
