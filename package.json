@@ -42,7 +42,7 @@
     "component"
   ],
   "dependencies": {
-    "react": "^16.13.1",
+    "react": "^17.0.1",
     "react-ga": "^3.0.0"
   },
   "devDependencies": {
